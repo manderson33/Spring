@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Rectangle Results</title>
+</head>
+<body>
+<h1>Results</h1>
+<!--/*@thymesVar id="area" type=""*/-->
+<p th:text="'Area: ' + ${area}"></p>
+<!--/*@thymesVar id="perimeter" type=""*/-->
+<p th:text="'Perimeter: ' + ${perimeter}"></p>
+<a href="/">Calculate another rectangle</a>
+</body>
+</html>

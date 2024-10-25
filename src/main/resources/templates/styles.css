@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+
+}
+
+table {
+    width: 100%;
+    max-width: 500px; /* Adjust this to fit your design */
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    width: 23%; /* Adjust this percentage to control button width */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+div {
+    margin-top: 20px;
+    text-align: center;
+}

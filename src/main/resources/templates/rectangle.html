@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Rectangle Calculator</title>
+</head>
+<body>
+<h1>Rectangle Calculator</h1>
+<form action="#" th:action="@{/rectangle}" th:method="post">
+  <label for="length">Length:</label>
+  <input type="text" id="length" name="length" required />
+  <br>
+  <label for="width">Width:</label>
+  <input type="text" id="width" name="width" required />
+  <br>
+  <button type="submit">Calculate</button>
+</form>
+</body>
+</html>
